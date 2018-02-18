@@ -10,27 +10,34 @@ class Header extends Component {
 				return;
 			case false:
 				return (
-					<a
-						href="/auth/google"
-						className="btn btn-secondary"
-						role="button"
-					>
-						Login with Google
+					<a href="/auth/google">
+						<button
+							className="btn btn-light"
+							style={{ color: "#577c7f" }}
+						>
+							Login with Google
+						</button>
 					</a>
 				);
 			default:
 				return [
-					<div key="1">
+					<a key="1" role="button">
 						<Payments />
-					</div>,
-
-					<a
+					</a>,
+					<span
 						key="2"
-						href="/api/logout"
-						className="btn btn-secondary"
-						role="button"
+						className="navbar-text px-2"
+						style={{ color: "#577c7f" }}
 					>
-						Logout
+						Credits: {this.props.auth.credits}
+					</span>,
+					<a key="3" href="/api/logout">
+						<button
+							className="btn btn-light"
+							style={{ color: "#577c7f" }}
+						>
+							Logout
+						</button>
 					</a>
 				];
 		}
