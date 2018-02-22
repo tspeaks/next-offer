@@ -5,8 +5,10 @@ import * as actions from "../actions";
 
 import Header from "./Header";
 import Landing from "./Landing";
-const Dashboard = () => <h2>Dashboard</h2>;
-const NewOffer = () => <h2>NewOffer</h2>;
+import Dashboard from "./Dashboard";
+import NewOffer from "./offerComponents/NewOffer";
+
+
 
 class App extends Component {
 	componentDidMount() {
@@ -15,7 +17,7 @@ class App extends Component {
 
 	render() {
 		return (
-			<div  className="container">
+			<div  className="container" >
 				<BrowserRouter>
 					<div>
 						<Header />

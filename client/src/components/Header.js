@@ -10,50 +10,36 @@ class Header extends Component {
 				return;
 			case false:
 				return (
-					<a href="/auth/google">
-						<button
-							className="btn btn-light"
-							style={{ color: "#577c7f" }}
-						>
-							Login with Google
-						</button>
-					</a>
+					<li>
+						<a href="/auth/google">Login With Google</a>
+					</li>
 				);
 			default:
 				return [
-					<a key="1" role="button">
+					<li key="1">
 						<Payments />
-					</a>,
-					<span
-						key="2"
-						className="navbar-text px-2"
-						style={{ color: "#577c7f" }}
-					>
+					</li>,
+					<li key="2" style={{ margin: "0 10px" }}>
 						Credits: {this.props.auth.credits}
-					</span>,
-					<a key="3" href="/api/logout">
-						<button
-							className="btn btn-light"
-							style={{ color: "#577c7f" }}
-						>
-							Logout
-						</button>
-					</a>
+					</li>,
+					<li key="3">
+						<a href="/api/logout">Logout</a>
+					</li>
 				];
 		}
 	}
 
 	render() {
 		return (
-			<nav className="navbar navbar-expand-lg navbar-light bg-light">
-				<Link
-					to={this.props.auth ? "/offers" : "/"}
-					className="navbar-brand"
-				>
-					NextOffer
-				</Link>
-				<div className="btn-group right" role="group">
-					{this.renderContent()}
+			<nav>
+				<div className="nav-wrapper teal lighten-1">
+					<Link
+						to={this.props.auth ? "/offers" : "/"}
+						className="left brand-logo"
+					>
+						NextOffer
+					</Link>
+					<ul className="right">{this.renderContent()}</ul>
 				</div>
 			</nav>
 		);
