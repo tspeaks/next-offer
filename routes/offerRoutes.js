@@ -17,6 +17,11 @@ module.exports = app => {
 		);
 	});
 
+	app.post('/api/offers/webhooks', (req, res) => {
+		console.log(req.body);
+		res.send({});
+	});
+
 	app.post("/api/offers", requireLogin, requireCredits, async (req, res) => {
 		const { title, subject, body, recipients } = req.body;
 
