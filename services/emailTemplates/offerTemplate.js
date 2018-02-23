@@ -1,4 +1,4 @@
-const keys = require("../../config/keys");
+const keys = require('../../config/keys');
 
 module.exports = offer => {
 	return `
@@ -9,10 +9,10 @@ module.exports = offer => {
 					<p>Our next release is around the corner.</p>
 					<p>${offer.body}</p>
 					<div>
-						<a href="${keys.prod.redirectDomain}/api/offers/${offer.id}/accept">Yes</a>
+						<a href="${keys.redirectDomain}/api/offers/${offer.id}/accept">Yes</a>
 					</div>
 					<div>
-						<a href="${keys.prod.redirectDomain}/api/offers/${offer.id}/decline">No</a>
+						<a href="${keys.redirectDomain}/api/offers/${offer.id}/decline">No</a>
 					</div>
 				</div>
 			</body>
