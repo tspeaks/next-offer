@@ -14,7 +14,7 @@ module.exports = app => {
 		const offers = await Offer.find({ _user: req.user.id }).select({
 			recipients: false
 		});
-		
+
 		res.send(offers);
 	});
 
