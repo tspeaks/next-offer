@@ -1,5 +1,5 @@
-    function localtunnel {
-      lt -s hhttps://367vtnert0uq05ptvmqqedoif.localtunnel.me/api/offers/webhooks --port 5000
+   function localtunnel {
+      lt -s --port 5000 --subdomain https://5jtj8ugjd4jirf6
     }
     until localtunnel; do
     echo "localtunnel server crashed"
