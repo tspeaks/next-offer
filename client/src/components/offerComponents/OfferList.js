@@ -20,9 +20,9 @@ class OfferList extends Component {
 							Sent On: {new Date(offer.dateSent).toLocaleDateString()}
 						</p>
 					</div>
-					<div className="card-action">
-						<a>Yes: {offer.yes}</a>
-						<a>No: {offer.no}</a>
+					<div className="card-action disabled">
+						<a className="amber-text lighten-3">Yes: {offer.yes}</a>
+						<a className="amber-text lighten-3">No: {offer.no}</a>
 					</div>
 				</div>
 			);
