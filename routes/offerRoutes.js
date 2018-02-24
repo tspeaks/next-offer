@@ -37,7 +37,7 @@ module.exports = app => {
 				}
 			})
 			.compact()
-			.uniqBy("email", offerId)
+			.uniqBy("email", "offerId")
 			.each(({ offerID, email, choice }) => {
 				Offer.updateOne(
 					{
