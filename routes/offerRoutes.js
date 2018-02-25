@@ -23,6 +23,7 @@ module.exports = app => {
 	});
 
 	app.post("/api/offers/webhooks", (req, res) => {
+		console.log("pickle");
 		const p = new Path("/api/offers/:offerId/:choice");
 
 		_.chain(req.body)
