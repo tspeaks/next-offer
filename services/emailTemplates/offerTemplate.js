@@ -9,10 +9,10 @@ module.exports = offer => {
 					<p>Our next release is around the corner.</p>
 					<p>${offer.body}</p>
 					<div>
-						<a href="${keys.redirectDomain}/api/offers/${offer.id}/accept">Yes</a>
+						<a href="${keys.redirectDomain}/api/offers/${offer.id}/yes">Yes</a>
 					</div>
 					<div>
-						<a href="${keys.redirectDomain}/api/offers/${offer.id}/decline">No</a>
+						<a href="${keys.redirectDomain}/api/offers/${offer.id}/no">No</a>
 					</div>
 				</div>
 			</body>

@@ -2,7 +2,7 @@ import React from "react";
 
 const Landing = () => {
 	return (
-		<div className="card blue-grey lighten-2">
+		<div className="card blue-grey">
 			<div className="card-content">
 				<div style={{ textAlign: "center" }}>
 					<h2 className="white-text">Welcome to NextOffer!</h2>

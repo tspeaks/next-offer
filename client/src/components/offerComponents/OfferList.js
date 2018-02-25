@@ -10,7 +10,7 @@ class OfferList extends Component {
 	renderOffers() {
 		return this.props.offers.reverse().map(offer => {
 			return (
-				<div className="card blue-grey lighten-2" key={offer.id}>
+				<div className="card blue-grey" key={offer.id}>
 					<div className="card-content">
 						<span className="card-title white-text">
 							{offer.title}
