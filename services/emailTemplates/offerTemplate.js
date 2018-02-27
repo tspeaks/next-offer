@@ -5,9 +5,9 @@ module.exports = offer => {
 		<html>
 			<body>
 				<div style="text-align: center;">
-					<h2>Don't miss this Offer!</h2>
-					<p>Our next release is around the corner.</p>
+					<h2>Don't miss this Opportunity!</h2>
 					<p>${offer.body}</p>
+					<p>Would you like more information on how to take advantage of this offer?</p>
 					<div>
 						<a href="${keys.redirectDomain}/api/offers/${offer.id}/yes">Yes</a>
 					</div>
