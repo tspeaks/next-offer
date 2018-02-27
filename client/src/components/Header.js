@@ -35,7 +35,7 @@ class Header extends Component {
 				<div className="nav-wrapper teal lighten-1">
 					<Link
 						to={this.props.auth ? "/offers" : "/"}
-						className="left brand-logo"
+						className="left brand-logo" style={{ margin: "0 10px" }}
 					>
 						NextOffer
 					</Link>
