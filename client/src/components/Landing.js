@@ -2,7 +2,7 @@ import React from "react";
 
 const Landing = () => {
 	return (
-		<div className="card blue-grey">
+		<div className="card blue-grey" style={{ opacity: "0.8" }}>
 			<div className="card-content">
 				<div style={{ textAlign: "center" }}>
 					<h2 className="white-text">Welcome to NextOffer!</h2>
@@ -17,7 +17,8 @@ const Landing = () => {
 					<h5 style={{ margin: "0 10px" }}>How to use NextOffer:</h5>
 					<br />
 					<br />
-					1. Click "Login with Google" and enter your Google credentials.
+					1. Click "Login with Google" and enter:<br />
+					username: "nextoffer2018", password: "nextoffer"
 					<br />
 					<br />
 					2. Click the "Add Credits" button.  In a live version of the app

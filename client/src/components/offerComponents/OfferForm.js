@@ -23,7 +23,8 @@ class OfferForm extends Component {
 
 	render() {
 		return (
-			<div>
+			<div className="card blue-grey" style={{ opacity: "0.8" }}>
+					<div className="card-content">
 				<form
 					onSubmit={this.props.handleSubmit(this.props.onOfferSubmit)}>
 					{this.renderFields()}
@@ -35,6 +36,7 @@ class OfferForm extends Component {
 						<i className="material-icons right">done</i>
 					</button>
 				</form>
+			</div>
 			</div>
 		);
 	}
