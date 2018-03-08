@@ -24,14 +24,12 @@ const Landing = () => {
 					2. Click the "Add Credits" button.  In a live version of the app
 					you would enter your credit card information to purchase credits.
 					These credits are in turn used to send emails, one credit for one
-					email.  For now you can use dummy credit card information.  Use the credit
-					card number "4242 4242 4242 4242" and a valid expiration date.
+					email.  For now you can use the dummy credit card number "4242 4242 4242 4242" and a valid expiration date.
 					<br />
 					<br />
 					3. Click the "+" button to create a new email offer.  This offer can be sent
 					to as many recipients as you would like provided you have enough credits to send 
-					them.  Keep in mind that recipients will be asked if they would like
-					to take advantage of your offer, so form an offer that will entice them to participate!
+					them.  Please remember that you recipients with  ultimately accept or decline your offer and phrase it in such a way.
 					<br />
 					<br />
 					4.  Review your offer.  You can always go back and make changes if you want to reword anything.
