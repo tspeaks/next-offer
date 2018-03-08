@@ -4,7 +4,7 @@ import OfferList from './offerComponents/OfferList';
 
 const Dashboard = () => {
 	return (
-		<div style={{ opacity: "0.8" }}>
+		<div style={{ opacity: "0.9" }}>
 			<OfferList />
 			<div className="fixed-action-btn">
 				<Link to="/offers/new" className="btn-floating btn-large cyan darken-3">

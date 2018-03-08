@@ -8,6 +8,7 @@ import Landing from "./Landing";
 import Dashboard from "./Dashboard";
 import NewOffer from "./offerComponents/NewOffer";
 import Background from "./background.jpg";
+import "../style.css";
 
 class App extends Component {
 	componentDidMount() {
@@ -18,9 +19,13 @@ class App extends Component {
 		return (
 			<div
 				style={{
-					backgroundImage: `url(${Background})`,
+					background: `url(${Background})`,
 					backgroundRepeat: "no-repeat",
-					backgroundAttachment: "fixed"
+					backgroundAttachment: "fixed",
+					backgroundPosition: "center",
+					backgroundSize: "cover",
+					minHeight: "100%",
+					overflow: "hidden"
 				}}
 			>
 				<div className="container">

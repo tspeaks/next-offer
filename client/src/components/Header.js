@@ -31,7 +31,7 @@ class Header extends Component {
 
 	render() {
 		return (
-			<nav style={{ opacity: "0.8" }}>
+			<nav style={{ opacity: "0.9" }}>
 				<div className="nav-wrapper teal lighten-1">
 					<Link
 						to={this.props.auth ? "/offers" : "/"}

@@ -18,7 +18,7 @@ const OfferReview = ({ onCancel, formValues, submitOffer, history }) => {
 	});
 
 	return (
-		<div className="card blue-grey" style={{ opacity: "0.8" }}>
+		<div className="card blue-grey" style={{ opacity: "0.9" }}>
 		<div className="card-content">
 			<h4 className="white-text">Please Confirm you Offer</h4>
 			{fieldsList}
