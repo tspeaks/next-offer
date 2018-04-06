@@ -8,35 +8,17 @@ const Landing = () => {
 					<h2 className="white-text">Welcome to NextOffer!</h2>
 					<p className="white-text">
 					<h5>NextOffer is a utility for reaching out to prior customers
-					with new and exciting offers.</h5>
-					<br />
-					</p>
-					</div>
-					<div style={{ textAlign: "left" }}>
-					<p className="white-text">
-					<h5 style={{ margin: "0 10px" }}>How to use NextOffer:</h5>
+					with new and exciting email offers.</h5>
+
 					<br />
 					<br />
-					1. Click "Login with Google" and enter:<br />
-					username: "nextoffer2018", password: "nextoffer"
+					Login as "<strong>nextoffer2018</strong>" with password "<strong>nextoffer</strong>".
+					<br />
+					  Add credits and start sending emails!
 					<br />
 					<br />
-					2. Click the "Add Credits" button.  In a live version of the app
-					you would enter your credit card information to purchase credits.
-					These credits are in turn used to send emails, one credit for one
-					email.  For now you can use the dummy credit card number "4242 4242 4242 4242" and a valid expiration date.
-					<br />
-					<br />
-					3. Click the "+" button to create a new email offer.  This offer can be sent
-					to as many recipients as you would like provided you have enough credits to send 
-					them.  Please remember that you recipients with  ultimately accept or decline your offer and phrase it in such a way.
-					<br />
-					<br />
-					4.  Review your offer.  You can always go back and make changes if you want to reword anything.
-					<br />
-					<br />
-					5. Send your offer.  You will be returned to the dashboard where you can track the success
-					 of your offers with the built-in reporting.  This feedback is crucial to use for improving future offers!
+					  <small><i>This is a demo version of NextOffer and does not accept real payments at this time.
+					  <br /> Please use fake credit card information.</i></small>
 					</p>
 				</div>
 			</div>
